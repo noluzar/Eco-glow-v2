@@ -44,7 +44,7 @@ export const Register = () => {
       <div></div>
       <div className="w-[30%] flex flex-col space-y-4">
         <div>
-          <h1 className="text-[60px]">Create an account</h1>
+          <h1 className="text-[60px] md:pt-14">Create an account</h1>
           <div className="flex gap-4 text-lg">
             <p>Already have an account?</p>
             <Link to="/login" className="text-blue-600 underline">
@@ -116,7 +116,7 @@ export const Register = () => {
           <p>Or Register with</p>
           <hr className="w-[20%]" />
         </div>
-        <div className="flex space-x-2">
+        <div className="flex space-x-2 md:pb-4">
           <button className="flex items-center gap-2 border-2 border-black p-2 w-full justify-center text-lg">
             <FcGoogle className="size-7" />
             Google
